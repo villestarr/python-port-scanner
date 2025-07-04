@@ -21,5 +21,5 @@ This project demonstrates basic networking concepts and Python socket programmin
 3. Open your command prompt or terminal and navigate to the folder where the script is saved.  
 4. Run the script with:
 
-   ```bash
+   ```bash(files)
    python port_scanner.py
