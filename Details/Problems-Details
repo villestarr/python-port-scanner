@@ -1,0 +1,38 @@
+Problems Faced & Fixes
+Python Not Installed or Not in PATH
+Fixed by installing Python and ensuring the "Add Python to PATH" option was selected during installation.
+
+Running Scripts in the Wrong Environment
+Initially ran install commands and scripts inside the Python interactive shell, which caused syntax errors. Fixed by running commands in the system terminal/command prompt.
+
+File Path Issues in Command Prompt
+Errors like "Cannot find the path specified" occurred due to spaces in folder names and incorrect navigation. Fixed by enclosing paths in quotes when using the cd command.
+
+All Ports Showing as Closed
+This is often caused by firewalls, scanning the wrong IP, or no services running on scanned ports. Tested by scanning known open ports (e.g., Google's DNS at 8.8.8.8 port 53).
+
+Skills Learned
+Using Python's socket library for network communication
+
+Writing basic network scanning tools (port scanner)
+
+Handling user input and exceptions in Python
+
+Navigating and troubleshooting command line interfaces (CMD, PowerShell)
+
+Understanding TCP ports and how network services respond
+
+Debugging common installation and path errors in Python projects
+
+Next Steps (Suggestions)
+Add multithreading to scan multiple ports faster
+
+Save scan results to a file
+
+Implement scanning of IP ranges instead of single IPs
+
+Add a graphical user interface (GUI) for ease of use
+
+Integrate with other network tools for deeper scanning and reporting
+
+
